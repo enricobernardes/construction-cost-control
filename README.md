@@ -6,7 +6,7 @@ Um diretor que olha só o resultado das 8 obras vê sucesso: 7 de 8 fecharam aba
 
 **O que fazer:** levar o preço das compras fechadas de volta para o orçamento, a cada compra e não a cada obra; investigar o solo antes de orçar a terraplenagem; e avisar o comercial das propostas em andamento.
 
-![Saldo por obra](images/desvio_por_obra.png)
+![Dashboard em Power BI](images/dashboard.png)
 
 ## Problema
 Uma construtora fecha propostas com base na planilha de custos do orçamento. Se essa planilha não reflete o preço que compras paga de verdade, a empresa decide no escuro: o item que estoura come a margem sem ninguém ver, e o item que sobra (mesmo que por boa negociação) deixa a planilha errada para a próxima proposta. Vender a preço de custo, ou até abaixo, pode ser uma decisão comercial. O que não pode é decidir em cima de um custo que não existe.
@@ -42,6 +42,7 @@ Uma construtora fecha propostas com base na planilha de custos do orçamento. Se
 | Preço ou quantidade | **Cerca de 3/4 do erro veio do preço unitário** |
 | Não orçados | 30 itens, A\$ 175 mil (chuva, retrabalho, EPI...) |
 
+![Saldo por obra](images/desvio_por_obra.png)
 ![Preço × quantidade](images/preco_x_quantidade.png)
 ![Saldo por grupo](images/desvio_por_grupo.png)
 
