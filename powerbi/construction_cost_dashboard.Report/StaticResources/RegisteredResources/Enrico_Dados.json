@@ -1,0 +1,166 @@
+{
+  "name": "Enrico Dados Escuro",
+  "dataColors": [
+    "#4FD1C5",
+    "#F2C14E",
+    "#8FA3B8",
+    "#F5A54A",
+    "#E07A5F",
+    "#7AA6D6",
+    "#B39DDB",
+    "#A3B86C"
+  ],
+  "background": "#15283C",
+  "foreground": "#E8EEF5",
+  "tableAccent": "#4FD1C5",
+  "foregroundNeutralSecondary": "#9FB0C2",
+  "foregroundNeutralTertiary": "#9FB0C2",
+  "backgroundLight": "#15283C",
+  "backgroundNeutral": "#2A4460",
+  "good": "#4FD1C5",
+  "neutral": "#F2C14E",
+  "bad": "#F5A54A",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#E8EEF5"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#E8EEF5"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#E8EEF5"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#9FB0C2"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#15283C"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#2A4460"
+              }
+            },
+            "radius": 14
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#E8EEF5"
+              }
+            }
+          }
+        ],
+        "subTitle": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#9FB0C2"
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": {
+                "color": "#15283C"
+              }
+            },
+            "foreground": {
+              "solid": {
+                "color": "#9FB0C2"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#15283C"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#E8EEF5"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#15283C"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#E8EEF5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0E1B2A"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0E1B2A"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+table evolucao_mensal
+	lineageTag: fb0e0b7e-a3c6-4229-aaaf-88ccfc1bf622
+
+	measure 'CPI carteira' = CALCULATE(DIVIDE(SUM(evolucao_mensal[ev_acum]), SUM(evolucao_mensal[ac_acum])), evolucao_mensal[pct_executado] >= 0.2)
+		formatString: 0.00
+		lineageTag: f421641e-9a05-47ee-85db-2aa9d3e31a36
+
+	column obra
+		dataType: string
+		lineageTag: 9cf4edf0-0dd9-4af1-8ba1-0989e96353d9
+		summarizeBy: none
+		sourceColumn: obra
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: dateTime
+		formatString: MMM/yyyy
+		lineageTag: cc5f079a-8280-4f22-905e-b5cbeb4eaadd
+		summarizeBy: none
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column pv_acum
+		dataType: double
+		formatString: #,0
+		lineageTag: 7ccfc6bb-a0a7-4adf-bce8-5b159d5f05da
+		summarizeBy: sum
+		sourceColumn: pv_acum
+
+		annotation SummarizationSetBy = Automatic
+
+	column ev_acum
+		dataType: double
+		formatString: #,0
+		lineageTag: c3193d24-31f7-49bf-92b2-da9e932a1565
+		summarizeBy: sum
+		sourceColumn: ev_acum
+
+		annotation SummarizationSetBy = Automatic
+
+	column ac_acum
+		dataType: double
+		formatString: #,0
+		lineageTag: 6b6be460-0e26-4742-92ef-e9a24037965b
+		summarizeBy: sum
+		sourceColumn: ac_acum
+
+		annotation SummarizationSetBy = Automatic
+
+	column cpi
+		dataType: double
+		formatString: 0.00
+		lineageTag: 63629e81-2267-443b-a2ba-2bb5a88a840a
+		summarizeBy: none
+		sourceColumn: cpi
+
+		annotation SummarizationSetBy = Automatic
+
+	column spi
+		dataType: double
+		formatString: 0.00
+		lineageTag: 8bf618f2-f771-4650-b2f8-4eee1bdddb95
+		summarizeBy: none
+		sourceColumn: spi
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 26b441fe-59ae-4360-8300-b17f8890a0bb
+		summarizeBy: none
+		sourceColumn: mes_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_executado
+		dataType: double
+		formatString: 0%
+		lineageTag: d3399b20-18b8-401a-91f0-0444f202c840
+		summarizeBy: none
+		sourceColumn: pct_executado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition evolucao_mensal = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(Text.TrimEnd(PastaDados, "\") & "\evolucao_mensal.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"obra", type text}, {"mes", type date}, {"pv_acum", type number}, {"ev_acum", type number}, {"ac_acum", type number}, {"cpi", type number}, {"spi", type number}, {"mes_n", Int64.Type}, {"pct_executado", type number}}, "en-US"),
+				    Selecao = Table.SelectColumns(Tipos, {"obra", "mes", "pv_acum", "ev_acum", "ac_acum", "cpi", "spi", "mes_n", "pct_executado"})
+				in
+				    Selecao
+
+	annotation PBI_ResultType = Table
+

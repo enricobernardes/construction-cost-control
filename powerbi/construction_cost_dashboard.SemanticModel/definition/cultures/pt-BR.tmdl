@@ -1,0 +1,218 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "obras.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "obras",
+			          "ConceptualProperty": "nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Obra": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "obras.obra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "obras",
+			          "ConceptualProperty": "obra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Obra": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.grupo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "grupo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Grupo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.saldo_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "Saldo total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Saldo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.situacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "situacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Situação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.qtd_de_itens": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "Qtd de itens"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Itens": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.descricao_pt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "descricao_pt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Item": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "evolucao_mensal.mes_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "evolucao_mensal",
+			          "ConceptualProperty": "mes_n"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "evolucao_mensal.cpi_carteira": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "evolucao_mensal",
+			          "ConceptualProperty": "CPI carteira"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "itens.desvio_por_custo_unitário_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "Desvio por custo unitário %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Custo unitário (preço)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "itens.desvio_por_quantidade_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "itens",
+			          "ConceptualProperty": "Desvio por quantidade %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Quantidade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

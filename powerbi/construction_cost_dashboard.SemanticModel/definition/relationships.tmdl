@@ -1,0 +1,8 @@
+relationship f640f6bc-1efa-40d0-9432-5c1f71597980
+	fromColumn: itens.obra
+	toColumn: obras.obra
+
+relationship 985419cf-6130-4784-ac84-7679b87973da
+	fromColumn: evolucao_mensal.obra
+	toColumn: obras.obra
+

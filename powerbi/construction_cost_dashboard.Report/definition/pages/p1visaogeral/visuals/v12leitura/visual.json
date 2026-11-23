@@ -1,0 +1,164 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "v12leitura",
+  "position": {
+    "x": 856,
+    "y": 450,
+    "z": 12,
+    "height": 232,
+    "width": 400,
+    "tabOrder": 12
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Leitura para a diretoria",
+                    "textStyle": {
+                      "fontSize": "13pt",
+                      "color": "#4FD1C5",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "4pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "O total engana: ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "somando as 8 obras, o gasto ficou 8% abaixo do orçado, mas 46% dos itens custaram mais que o previsto.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "4pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Preço, não quantidade: ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "cerca de 3/4 do erro veio do preço unitário. Terraplenagem estourou 24%.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "4pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ação: ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "levar o preço das compras fechadas de volta para o orçamento e avisar o comercial das propostas em andamento.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EEF5"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

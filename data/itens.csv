@@ -1,0 +1,266 @@
+obra,wbs,descricao_pt,descricao_original,grupo,unidade,qtd_orcada,qtd_real,orcado,custo_real,saldo,saldo_pct,situacao,efeito_quantidade,efeito_preco
+P01,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hrs,94.0,146.0,23680.0,27030.0,-3350.0,-0.1414695945945946,Estourou,-13099.574468085106,9749.574468085108
+P01,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,14950.0,7650.0,7300.0,0.4882943143812709,Abaixo do orçado,-0.0,7300.0
+P01,15,Localização de interferências,Service Locations,Topografia e qualidade,,0.0,1.0,0.0,1105.0,-1105.0,,Não orçado,,
+P01,21,Limpeza do terreno (estoque),Clearing to Stockpile,Limpeza e solo vegetal,m3,2350.0,2350.0,4482.0,12096.0,-7614.0,-1.6987951807228916,Estourou,-0.0,-7613.999999999999
+P01,22,Bota-fora de limpeza,Disposal offsite - Clearing waste,Limpeza e solo vegetal,,14033.0,0.0,8832.0,0.0,8832.0,1.0,Não executado,,
+P01,23,Trituração de vegetação,Mulching,Limpeza e solo vegetal,,14033.0,0.0,7000.0,0.0,7000.0,1.0,Não executado,,
+P01,31,Raspagem de solo vegetal,Strip Topsoil to Stockpile,Limpeza e solo vegetal,m3,1151.0,1151.0,9869.825,17447.0,-7577.174999999999,-0.7677111802894173,Estourou,-0.0,-7577.174999999999
+P01,32,Bota-fora de solo vegetal,Disposal offsite - topsoil,Limpeza e solo vegetal,m3,27.0,0.0,353.025,0.0,353.025,1.0,Não executado,,
+P01,33,Reespalhamento de solo vegetal,Re-spread topsoil,Limpeza e solo vegetal,m3,389.0,389.0,5539.36,14500.0,-8960.64,-1.6176309176511365,Estourou,-0.0,-8960.640000000001
+P01,41,Demolições,Demolition works,Demolição,item,1.0,1.0,29059.42501693136,13911.0,15148.42501693136,0.5212912852922998,Abaixo do orçado,-0.0,15148.42501693136
+P01,51,Corte e aterro,Cut to Fill,Terraplenagem,m3,2848.0,2848.0,20085.73113573113,49136.0,-29050.26886426887,-1.4463137372475552,Estourou,-0.0,-29050.26886426887
+P01,52,Aterro com material estocado,Stockpile to Fill,Terraplenagem,m3,7508.0,7508.0,94981.4379303438,164871.0,-69889.5620696562,-0.7358233734144018,Estourou,-0.0,-69889.5620696562
+P01,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,m3,2052.0,2052.0,33153.15833333333,11630.0,21523.158333333333,0.6492038591597231,Abaixo do orçado,-0.0,21523.158333333333
+P01,57,Troca de solo inadequado,Remove & Replace unsuitable,Terraplenagem,m3,473.0,473.0,27999.42316415489,29372.0,-1372.5768358451096,-0.04902161118812957,Estourou,-0.0,-1372.5768358451091
+P01,61,Preparo do subleito,Subgrade Preparation,Pavimentação,m2,22003.0,22003.0,44898.20126984126,6723.0,38175.20126984126,0.8502612619246301,Abaixo do orçado,-0.0,38175.20126984126
+P01,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,tonne,7995.0,5536.0,40636.32309264829,91849.0,-51212.67690735171,-1.2602684743545818,Estourou,12498.401311422404,-63711.07821877412
+P01,63,Regularização das camadas,Trim All Layers,Pavimentação,m2,18417.0,18417.0,45346.746666666666,45940.0,-593.253333333334,-0.013082599677860036,Estourou,-0.0,-593.2533333333322
+P01,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,14781.0,14781.0,69649.1045,105958.0,-36308.8955,-0.5213117348838275,Estourou,-0.0,-36308.8955
+P01,65,Asfalto (CBUQ),Asphalt,Pavimentação,tonne,1369.0,1276.0,392816.9,307649.0,85167.90000000002,0.21681322774045622,Abaixo do orçado,26685.150986121254,58482.74901387876
+P01,66,Sinalização horizontal,Linemarking,Pavimentação,item,1.0,1.0,12634.337391304349,11724.0,910.3373913043488,0.0720526421853269,Abaixo do orçado,-0.0,910.3373913043488
+P01,67,Sinalização e mobiliário viário,Install Road Furniture,Pavimentação,each,96.0,96.0,16715.500000000004,2865.0,13850.500000000004,0.8286021955669888,Abaixo do orçado,-0.0,13850.500000000004
+P01,68,Estabilização de solo in situ,In-situ Stabilising,Pavimentação,m2,3890.0,3890.0,42787.1214,13280.0,29507.121400000004,0.6896262341219337,Abaixo do orçado,-0.0,29507.121400000004
+P01,71,Meio-fio e sarjeta,Place Kerb & Channel / Inverts,"Concreto, meio-fio e calçadas",m,1517.0,1517.0,30932.8221206138,37067.0,-6134.1778793861995,-0.19830644147073637,Estourou,-0.0,-6134.177879386207
+P01,73,Calçadas,Form & Place Footpath,"Concreto, meio-fio e calçadas",m2,1005.0,1005.0,19964.44649860432,33677.0,-13712.55350139568,-0.6868486688250687,Estourou,-0.0,-13712.55350139568
+P01,81,Tubos de drenagem > 450 mm,> 450,Drenagem,m,202.0,202.0,10313.807109644516,17495.0,-7181.1928903554835,-0.696269846237506,Estourou,-0.0,-7181.192890355484
+P01,85,Bocas de lobo e poços de visita,Install SW Pits & Chambers,Drenagem,each,24.0,24.0,21867.0,25121.0,-3254.0,-0.1488087071843417,Estourou,-0.0,-3253.999999999998
+P01,95,Esgoto (subempreitada),Sewer Sub-contractors,"Redes (água, esgoto, elétrica)",item,1.0,1.0,174672.4,139556.0,35116.399999999994,0.20104149253116116,Abaixo do orçado,-0.0,35116.399999999994
+P01,103,Rede de água (subempreitada),Water Sub-contractor,"Redes (água, esgoto, elétrica)",m,285.0,285.0,24123.643199999995,8135.0,15988.643199999995,0.6627789620101825,Abaixo do orçado,-0.0,15988.643199999997
+P01,111,Eletrodutos e caixas,Install Conduits / pits / rag bolts,"Redes (água, esgoto, elétrica)",m,995.0,995.0,65406.52255265615,39338.0,26068.522552656148,0.3985615124496098,Abaixo do orçado,-0.0,26068.52255265614
+P01,113,Elétrica (subempreitada),Electrical Sub-contract works,"Redes (água, esgoto, elétrica)",item,1.0,1.0,69827.0,84469.0,-14642.0,-0.20968966159222077,Estourou,-0.0,-14642.0
+P01,121,Paisagismo (subempreitada),Landscaping Sub-contractors,"Paisagismo, cercas e muros",m2,3271.0,3271.0,0.0,7800.0,-7800.0,,Não orçado,,
+P01,131,Cercas (subempreitada),Fencing Sub-contractors,"Paisagismo, cercas e muros",m,1602.0,1602.0,54957.334,59187.0,-4229.665999999997,-0.0769627216633179,Estourou,-0.0,-4229.666
+P01,141,Controladores de tráfego,Traffic Controllers,"Tráfego, segurança e meio ambiente",hrs,177.0,285.0,9194.4,14798.0,-5603.6,-0.6094579309144698,Estourou,-5610.142372881355,6.542372881354979
+P01,142,Aluguel de dispositivos de tráfego,Hire of Control Devices,"Tráfego, segurança e meio ambiente",week,16.0,8.0,16500.0,4339.0,12161.0,0.737030303030303,Abaixo do orçado,8250.0,3911.0
+P01,151,Barreiras de sedimento,Supply & Place Silt fences & protective devices,"Tráfego, segurança e meio ambiente",m,2000.0,0.0,19140.030780307803,177.0,18963.030780307803,0.9907523659689144,Abaixo do orçado,,
+P01,152,Dispositivos de segurança,Supply & install safety devices,"Tráfego, segurança e meio ambiente",item,1.0,1.0,12768.0,2806.0,9962.0,0.7802318295739349,Abaixo do orçado,-0.0,9962.0
+P01,221,Serviços por administração,Day Works,Serviços extras e retrabalho,item,1.0,1.0,325.24,424.0,-98.75999999999999,-0.30365268724634115,Estourou,-0.0,-98.76
+P01,901,Gerenciamento do projeto,Project Management,Custos indiretos,week,9.0,15.0,29792.75,2728.0,27064.75,0.9084340988999001,Abaixo do orçado,-19861.833333333336,46926.583333333336
+P01,902,Supervisão da obra,Project Supervision,Custos indiretos,week,16.0,30.0,38411.1,83151.0,-44739.9,-1.1647648726539985,Estourou,-33609.7125,-11130.187499999996
+P01,903,Instalações do canteiro,Project Facilities,Custos indiretos,week,16.0,30.0,30636.800000000003,16884.0,13752.800000000003,0.4488980572383539,Abaixo do orçado,-26807.200000000004,40560.00000000001
+P01,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,26060.0,18189.0,7871.0,0.3020337682271681,Abaixo do orçado,-0.0,7871.0
+P01,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,1.0,1.08,4224.0,4559.0,-335.0,-0.07930871212121213,Estourou,-337.9200000000003,2.920000000000728
+P01,907,Mobilização do canteiro,Site Establishment,Custos indiretos,item,1.0,1.0,13900.0,8228.0,5672.0,0.4080575539568345,Abaixo do orçado,-0.0,5672.0
+P01,910,Desmobilização e limpeza,De-Establishment & Cleanup,Custos indiretos,item,1.0,1.0,16740.0,3875.0,12865.0,0.7685185185185185,Abaixo do orçado,-0.0,12865.0
+P02,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hrs,110.0,103.0,20350.0,19038.5,1311.5,0.06444717444717445,Abaixo do orçado,1295.0,16.50000000000125
+P02,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,5460.0,11878.85,-6418.85,-1.1756135531135532,Estourou,-0.0,-6418.85
+P02,31,Raspagem de solo vegetal,Strip Topsoil to Stockpile,Limpeza e solo vegetal,m3,2500.0,2500.0,20012.000000000004,8287.17,11724.830000000004,0.5858899660203878,Abaixo do orçado,-0.0,11724.830000000002
+P02,51,Corte e aterro,Cut to Fill,Terraplenagem,m3,22919.0,22919.0,244936.5155386707,292965.585,-48029.069461329316,-0.19608782853672327,Estourou,-0.0,-48029.069461329294
+P02,59,Acabamento de áreas não pavimentadas,"Trim unpaved areas - footpaths, batters, drains etc",Terraplenagem,m2,86600.0,86600.0,138448.8333333333,105179.34,33269.49333333332,0.24030172398226532,Abaixo do orçado,-0.0,33269.4933333333
+P02,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,tonne,1056.0,641.0,6320.128399358004,3632.5,2687.6283993580037,0.42524901861661735,Abaixo do orçado,2483.7625811870944,203.86581817090965
+P02,91,Tubos de chorume,InstallLeachate Pipes,Impermeabilização (aterro),m,740.0,740.0,14825.0,11473.04,3351.959999999999,0.22610185497470484,Abaixo do orçado,-0.0,3351.9599999999978
+P02,131,Cercas (subempreitada),Fencing Sub-contractors,"Paisagismo, cercas e muros",m,300.0,300.0,2970.0,18430.0,-15460.0,-5.205387205387205,Estourou,-0.0,-15460.0
+P02,151,Barreiras de sedimento,Supply & Place Silt fences & protective devices,"Tráfego, segurança e meio ambiente",item,1.0,0.0,14238.9998,0.0,14238.9998,1.0,Não executado,,
+P02,161,Geotêxtil de proteção,Supply & Place A64 Protection Geotextile,Pavimentação,m2,15960.0,15960.0,50804.59206538397,48447.01499999999,2357.577065383979,0.04640480258851107,Abaixo do orçado,-0.0,2357.577065383984
+P02,162,Geotêxtil de separação,Supply & Place A24 Separation Geotextile,Pavimentação,m2,15960.0,15960.0,27502.99206538396,16222.5,11280.492065383962,0.4101550856200081,Abaixo do orçado,-0.0,11280.492065383962
+P02,191,Serviços por administração,Dayworks,Serviços extras e retrabalho,,,1.0,0.0,7230.0,-7230.0,,Não orçado,,
+P02,221,Serviços por administração,Construct Spillway,Serviços extras e retrabalho,item,1.0,1.0,1512.5045045045044,1180.15,332.35450450450435,0.21973786095492223,Abaixo do orçado,-0.0,332.35450450450435
+P02,222,Manta de PEAD,Supply & Install HDPE Liner,Impermeabilização (aterro),m2,3400.0,3400.0,40831.0,36108.2,4722.800000000003,0.11566701770713436,Abaixo do orçado,-0.0,4722.800000000008
+P02,223,Manta GCL,Supply & Place GCL Liner,Impermeabilização (aterro),m2,16118.0,16118.0,140573.156809613,141962.25,-1389.0931903870078,-0.009881639012121947,Estourou,-0.0,-1389.0931903870144
+P02,224,Brita de drenagem,Place Drainage Gravel,Impermeabilização (aterro),tonne,6008.0,6656.0,30776.014583333334,11791.5,18984.514583333334,0.6168607222331622,Abaixo do orçado,-3319.3837300266314,22303.89831335997
+P02,510,Compactação de alta energia,High Energy Compaction,Terraplenagem,m2,20000.0,20000.0,28424.12,25880.0,2544.119999999999,0.08950567335066131,Abaixo do orçado,-0.0,2544.1199999999985
+P02,901,Gerenciamento do projeto,Project Management,Custos indiretos,week,7.2,0.5,22750.0,1359.33,21390.67,0.9402492307692307,Abaixo do orçado,21170.13888888889,220.5311111111112
+P02,902,Supervisão da obra,Project Supervision,Custos indiretos,week,12.0,16.0,40200.0,42014.91,-1814.9100000000035,-0.04514701492537322,Estourou,-13400.0,11585.089999999997
+P02,903,Instalações do canteiro,Project Facilities,Custos indiretos,week,12.0,16.0,15000.0,12881.8,2118.2000000000007,0.14121333333333339,Abaixo do orçado,-5000.0,7118.200000000001
+P02,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,24843.75,6981.2,17862.55,0.7189957232704403,Abaixo do orçado,-0.0,17862.55
+P02,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,1.0,1.0,5824.0,614.9000000000001,5209.1,0.8944196428571429,Abaixo do orçado,-0.0,5209.1
+P02,907,Mobilização do canteiro,Site Establishment,Custos indiretos,item,1.0,1.0,18995.0,27660.31,-8665.310000000001,-0.4561889971045012,Estourou,-0.0,-8665.310000000001
+P02,910,Desmobilização e limpeza,Site de-Establishment,Custos indiretos,item,1.0,1.0,0.0,2117.6,-2117.6,,Não orçado,,
+P02,911,Alojamento,Accommodation,Custos indiretos,days,84.0,84.0,10500.0,4579.81,5920.19,0.563827619047619,Abaixo do orçado,-0.0,5920.19
+P03,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hrs,377.0,477.0,54760.0,71680.95,-16920.949999999997,-0.30900200876552225,Estourou,-14525.198938992042,-2395.751061007956
+P03,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,37361.66666666667,12680.0,24681.66666666667,0.6606147120488916,Abaixo do orçado,-0.0,24681.66666666667
+P03,15,Localização de interferências,Service Locations,Topografia e qualidade,hrs,20.0,12.0,6800.0,4080.0,2720.0,0.4,Abaixo do orçado,2720.0,-0.0
+P03,21,Limpeza do terreno (estoque),Clearing to Stockpile,Limpeza e solo vegetal,m2,16000.0,16000.0,24842.926126126127,1562.9550000000002,23279.971126126125,0.9370865174229087,Abaixo do orçado,-0.0,23279.97112612613
+P03,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,m3,802.0,802.0,18732.09693817465,3969.35,14762.74693817465,0.7880990039128639,Abaixo do orçado,-0.0,14762.746938174652
+P03,57,Troca de solo inadequado,Remove & Replace unsuitable,Terraplenagem,m3,153.5,153.0,9587.675,4381.225,5206.449999999999,0.5430357203388725,Abaixo do orçado,31.23021172638436,5175.219788273615
+P03,59,Acabamento de áreas não pavimentadas,"Trim unpaved areas - footpaths, batters, drains etc",Terraplenagem,m2,29830.0,29830.0,22887.0675,13518.27,9368.7975,0.40934896967468637,Abaixo do orçado,-0.0,9368.7975
+P03,61,Preparo do subleito,Subgrade Preparation,Pavimentação,m2,12535.0,12535.0,37229.31999999999,213777.52000000005,-176548.20000000007,-4.742181699800053,Estourou,-0.0,-176548.20000000007
+P03,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,m3,4019.0,4610.0,131637.15013056662,102754.36999999998,28882.780130566636,0.2194120740377526,Abaixo do orçado,-19357.44108662973,48240.22121719637
+P03,63,Regularização das camadas,Trim All Layers,Pavimentação,m2,9107.0,9107.0,75658.8513030303,21913.25,53745.6013030303,0.7103676619113258,Abaixo do orçado,-0.0,53745.60130303029
+P03,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,25142.0,21275.0,217171.383,277417.8060000001,-60246.4230000001,-0.2774141885904005,Estourou,33402.3442073423,-93648.7672073424
+P03,65,Asfalto (CBUQ),Asphalt,Pavimentação,tonne,605.0,605.0,296792.9945289739,202459.38,94333.61452897388,0.3178431306260658,Abaixo do orçado,-0.0,94333.61452897388
+P03,66,Sinalização horizontal,Linemarking,Pavimentação,item,1.0,1.0,35476.8,5622.0,29854.800000000003,0.8415302394804492,Abaixo do orçado,-0.0,29854.800000000003
+P03,67,Sinalização e mobiliário viário,Install Road Furniture,Pavimentação,item,1.0,1.0,33024.0,2209.45,30814.55,0.9330956274224806,Abaixo do orçado,-0.0,30814.55
+P03,68,Estabilização de solo in situ,Insitu Stabilisation of Subgrade (cement/lime),Pavimentação,m2,600.0,12535.0,13641.074412961294,51538.06499999997,-37896.99058703868,-2.7781529108169236,Estourou,-271343.7051978217,233446.71461078303
+P03,71,Meio-fio e sarjeta,Place Kerb & Channel / Inverts,"Concreto, meio-fio e calçadas",m,134.0,134.0,6700.0025000000005,4537.241,2162.7615000000005,0.3228001034327973,Abaixo do orçado,-0.0,2162.7615000000005
+P03,72,Cabeceiras de concreto,Form & Pour Headwalls,"Concreto, meio-fio e calçadas",each,11.0,11.0,32902.26209528795,18303.345000000005,14598.917095287947,0.4437055741945083,Abaixo do orçado,-0.0,14598.91709528795
+P03,81,Tubos de drenagem > 450 mm,> 450,Drenagem,m,12.2,12.2,31756.29716730865,29127.06,2629.237167308649,0.08279419837446612,Abaixo do orçado,-0.0,2629.237167308653
+P03,111,Eletrodutos e caixas,Install Conduits / pits / rag bolts,"Redes (água, esgoto, elétrica)",m,157.0,157.0,12960.463999999998,8890.214999999998,4070.249,0.31405117903186186,Abaixo do orçado,-0.0,4070.248999999999
+P03,121,Paisagismo (subempreitada),Lanscaping Sub-contractors,"Paisagismo, cercas e muros",,29830.0,0.0,29981.050000000003,57433.552500000005,-27452.502500000002,-0.9156618097098,Estourou,,
+P03,141,Controladores de tráfego,Traffic Controllers,"Tráfego, segurança e meio ambiente",hrs,1104.0,545.0,115916.75314,2466.425,113450.32814,0.9787224457795057,Abaixo do orçado,58693.355983025365,54756.97215697464
+P03,151,Barreiras de sedimento,Supply & Place Silt fences & protective devices,"Tráfego, segurança e meio ambiente",each,40.0,40.0,4542.666666666667,23785.751000000004,-19243.084333333336,-4.236076680363957,Estourou,-0.0,-19243.08433333334
+P03,181,Galerias celulares,Place Box Culverts,Drenagem,m,59.48,59.48,8767.499999999998,0.0,8767.499999999998,1.0,Não executado,-0.0,8767.499999999998
+P03,901,Gerenciamento do projeto,Project Management,Custos indiretos,weeks,10.0,1.8,32400.0,5950.0,26450.0,0.816358024691358,Abaixo do orçado,26568.0,-118.00000000000018
+P03,902,Supervisão da obra,Project Supervision,Custos indiretos,weeks,16.0,19.5,53600.0,65379.84999999997,-11779.84999999997,-0.21977332089552182,Estourou,-11725.0,-54.849999999973306
+P03,903,Instalações do canteiro,Project Facilities,Custos indiretos,weeks,16.0,6.0,24500.0,8814.25,15685.75,0.640234693877551,Abaixo do orçado,15312.5,373.2499999999996
+P03,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,25000.0,1203.86,23796.14,0.9518456,Abaixo do orçado,-0.0,23796.14
+P03,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,1.0,1.0,5824.0,9544.939999999997,-3720.939999999997,-0.6388976648351643,Estourou,-0.0,-3720.939999999997
+P03,907,Mobilização do canteiro,Site Establishment,Custos indiretos,item,1.0,1.0,19585.0,45323.63900000004,-25738.63900000004,-1.3142016339034996,Estourou,-0.0,-25738.63900000004
+P03,910,Desmobilização e limpeza,De-Establishment & Cleanup,Custos indiretos,item,1.0,1.0,5040.0,530.25,4509.75,0.8947916666666667,Abaixo do orçado,-0.0,4509.75
+P03,911,Alojamento,Accommodation,Custos indiretos,days,254.0,198.0,31750.17182130584,24904.43,6845.741821305841,0.2156127488013161,Abaixo do orçado,7000.037881862705,-154.29606055686364
+P04,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,0.0,1.0,0.0,4750.0,-4750.0,,Não orçado,,
+P04,62,Base de brita compactada,Purchase Water - IRC,Pavimentação,item,0.0,1.0,0.0,420.0,-420.0,,Não orçado,,
+P04,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,26280.0,26280.0,90032.61488928892,118730.0,-28697.385110711082,-0.31874432555357424,Estourou,-0.0,-28697.38511071108
+P04,68,Estabilização de solo in situ,Insitu Stabilisation,Pavimentação,m2,26280.0,26280.0,438808.95731323137,223782.0,215026.95731323137,0.4900240838970396,Abaixo do orçado,-0.0,215026.9573132314
+P04,191,Serviços por administração,Dayworks - Cleaning Drains,Serviços extras e retrabalho,day,27.5,27.5,44650.0,92723.0,-48073.0,-1.076662933930571,Estourou,-0.0,-48072.99999999999
+P04,902,Supervisão da obra,Project Supervision,Custos indiretos,day,53.0,139.0,42021.91219121912,93792.0,-51770.08780878088,-1.2319783919685297,Estourou,-68186.49902726122,16416.411218480338
+P04,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,0.0,1.0,0.0,5698.0,-5698.0,,Não orçado,,
+P04,907,Mobilização do canteiro,Site Relocations (Along Road),Custos indiretos,month,0.0,6.0,0.0,39399.0,-39399.0,,Não orçado,,
+P04,911,Alojamento,Accommodation,Custos indiretos,nights,580.0,499.0,60252.61026102611,67367.0,-7114.389738973892,-0.11807604198644611,Estourou,8414.58867438468,-15528.978413358567
+P05,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hrs,124.0,121.0,22940.0,23188.92,-248.91999999999825,-0.010850915431560517,Estourou,555.0,-803.9199999999988
+P05,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,33460.0,5728.34,27731.66,0.8288003586371787,Abaixo do orçado,-0.0,27731.66
+P05,15,Localização de interferências,Service Locations,Topografia e qualidade,hrs,18.0,3.5,4455.0,857.5,3597.5,0.8075196408529742,Abaixo do orçado,3588.75,8.75
+P05,22,Bota-fora de limpeza,Disposal offsite - Clearing waste,Limpeza e solo vegetal,item,1.0,1.0,20750.0,13933.58,6816.42,0.3285021686746988,Abaixo do orçado,-0.0,6816.42
+P05,31,Raspagem de solo vegetal,Strip Topsoil to Stockpile,Limpeza e solo vegetal,m3,720.0,730.0,7979.770777077707,72746.43,-64766.65922292229,-8.116355849339405,Estourou,-110.83014968163482,-64655.82907324065
+P05,41,Demolições,Demolition works,Demolição,item,1.0,1.0,15900.0,5217.475,10682.525,0.6718569182389937,Abaixo do orçado,-0.0,10682.525
+P05,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,m3,2265.0,2265.0,62682.62486995332,43727.489650000025,18955.135219953292,0.3023985555690946,Abaixo do orçado,-0.0,18955.135219953296
+P05,55,Aterro geral,Place General Fill,Terraplenagem,m3,410.0,0.0,6310.531053105312,0.0,6310.531053105312,1.0,Não executado,,
+P05,61,Preparo do subleito,Subgrade Preparation,Pavimentação,m2,11813.0,11813.0,13464.0,26831.6,-13367.599999999999,-0.9928401663695781,Estourou,-0.0,-13367.6
+P05,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,tonne,8796.0,8796.0,128112.8631773272,159414.4699999999,-31301.606822672707,-0.2443283683336828,Estourou,-0.0,-31301.60682267272
+P05,63,Regularização das camadas,Trim All Layers,Pavimentação,m2,23626.0,23626.0,10504.963555555556,7087.515,3417.4485555555557,0.3253175070510584,Abaixo do orçado,-0.0,3417.448555555555
+P05,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,20421.0,20421.0,145692.19308,131081.82,14610.37307999999,0.10028247067416572,Abaixo do orçado,-0.0,14610.373079999992
+P05,65,Asfalto (CBUQ),Asphalt,Pavimentação,tonne,195.0,267.4,58305.0,80088.974,-21783.974000000002,-0.37362102735614444,Estourou,-21647.599999999995,-136.37400000001276
+P05,66,Sinalização horizontal,Linemarking,Pavimentação,item,1.0,1.0,8808.0,2580.0,6228.0,0.7070844686648501,Abaixo do orçado,-0.0,6228.0
+P05,67,Sinalização e mobiliário viário,Install Road Furniture,Pavimentação,item,1.0,1.0,11229.5,6897.400000000002,4332.099999999998,0.38577852976535,Abaixo do orçado,-0.0,4332.099999999998
+P05,68,Estabilização de solo in situ,Insitu Stabilisation of Subgrade,Pavimentação,m2,1893.0,1893.0,30573.15550622469,47892.13000000002,-17318.974493775328,-0.5664765120580761,Estourou,-0.0,-17318.974493775335
+P05,71,Meio-fio e sarjeta,Place Kerb & Channel / Inverts,"Concreto, meio-fio e calçadas",m,418.0,418.0,23438.71,30901.95,-7463.240000000002,-0.3184151346213167,Estourou,-0.0,-7463.239999999999
+P05,72,Cabeceiras de concreto,Form & Pour Headwalls,"Concreto, meio-fio e calçadas",m3,35.0,35.0,21000.0,6696.985000000001,14303.015,0.6810959523809523,Abaixo do orçado,-0.0,14303.014999999998
+P05,73,Calçadas,Form & Place Footpath,"Concreto, meio-fio e calçadas",m2,517.0,517.0,15824.810860000003,11570.0,4254.810860000003,0.2688696185781776,Abaixo do orçado,-0.0,4254.810860000004
+P05,75,Corte e selagem de juntas,Saw Cutting/Joint sealing,"Concreto, meio-fio e calçadas",m,83.0,83.0,3526.0,4008.49,-482.4899999999998,-0.1368377765173,Estourou,-0.0,-482.4900000000002
+P05,81,Tubos de drenagem > 450 mm,> 450,Drenagem,m,102.48,102.0,41052.64432989691,34010.8,7041.844329896907,0.17153205219398324,Abaixo do orçado,192.28404838359367,6849.56028151331
+P05,87,Drenagem subterrânea,Supply & Place Subsoil Drainage,Drenagem,m,1780.0,1780.0,63795.6597659766,19291.025000000005,44504.63476597659,0.6976122659321055,Abaixo do orçado,-0.0,44504.63476597659
+P05,103,Rede de água (subempreitada),Water Sub-Contractor,"Redes (água, esgoto, elétrica)",item,1.0,1.0,13500.0,13840.0,-340.0,-0.025185185185185185,Estourou,-0.0,-340.0
+P05,121,Paisagismo (subempreitada),Landscaping Sub-contractors,"Paisagismo, cercas e muros",m2,10200.0,0.0,27489.0,0.0,27489.0,1.0,Não executado,,
+P05,141,Controladores de tráfego,Traffic Controllers,"Tráfego, segurança e meio ambiente",hrs,933.0,110.0,27953.545454545456,21548.605000000007,6404.940454545449,0.2291280175876208,Abaixo do orçado,24657.84341810387,-18252.90296355842
+P05,151,Barreiras de sedimento,Supply & Place Silt fences,"Tráfego, segurança e meio ambiente",m,560.0,0.0,16000.0,0.0,16000.0,1.0,Não executado,,
+P05,181,Galerias celulares,Supply & Place Box Culverts,Drenagem,m,214.0,214.0,64479.51374570447,59053.17020000001,5426.343545704462,0.08415608664644988,Abaixo do orçado,-0.0,5426.343545704458
+P05,182,Lajes de base,Supply Base Slabs,Drenagem,m3,57.0,57.0,9379.8,11490.0,-2110.2000000000007,-0.22497281391927343,Estourou,-0.0,-2110.2000000000003
+P05,902,Supervisão da obra,Project Supervision,Custos indiretos,week,26.0,17.0,55235.0,49348.49949999999,5886.500500000009,0.10657192903050619,Abaixo do orçado,19119.80769230769,-13233.30719230768
+P05,903,Instalações do canteiro,Project Facilities,Custos indiretos,week,13.0,13.0,16250.0,11252.710000000005,4997.289999999995,0.3075255384615382,Abaixo do orçado,-0.0,4997.2899999999945
+P05,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,25500.0,5722.72,19777.28,0.7755796078431372,Abaixo do orçado,-0.0,19777.28
+P05,905,Ferramentas pequenas,small tools,Custos indiretos,item,1.0,1.0,0.0,5849.178,-5849.178,,Não orçado,,
+P05,907,Mobilização do canteiro,Site Establishment,Custos indiretos,item,1.0,1.0,13800.0,10703.960000000005,3096.0399999999954,0.22435072463768083,Abaixo do orçado,-0.0,3096.0399999999954
+P06,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hr,135.0,242.0,32775.0,44729.58,-11954.580000000002,-0.3647469107551488,Estourou,-25977.222222222223,14022.642222222225
+P06,12,Topografia as-built,Survey - As Constructed,Topografia e qualidade,hr,172.0,99.0,23900.0,18263.07,5636.93,0.23585481171548117,Abaixo do orçado,10143.604651162792,-4506.674651162789
+P06,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,25425.0,27869.52,-2444.5200000000004,-0.0961463126843658,Estourou,-0.0,-2444.5200000000004
+P06,15,Localização de interferências,Service Locations,Topografia e qualidade,hr,0.0,24.5,0.0,4054.9,-4054.9,,Não orçado,,
+P06,32,Bota-fora de solo vegetal,Disposal offsite - Clearing waste,Limpeza e solo vegetal,item,1.0,1.0,3115.0,2535.32,579.6799999999998,0.18609309791332257,Abaixo do orçado,-0.0,579.6799999999998
+P06,33,Reespalhamento de solo vegetal,Re-spread topsoil,Limpeza e solo vegetal,m3,240.0,240.0,9148.261356135614,25138.26999999999,-15990.008643864376,-1.7478740518426592,Estourou,-0.0,-15990.008643864374
+P06,41,Demolições,Demolition works,Demolição,item,1.0,1.0,78845.10764946765,12448.88,66396.22764946765,0.8421096708327717,Abaixo do orçado,-0.0,66396.22764946765
+P06,52,Aterro com material estocado,Stockpile to Fill,Terraplenagem,m3,0.0,10.0,0.0,193.5,-193.5,,Não orçado,,
+P06,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,m3,7825.0,7825.0,129418.15,308767.9830000002,-179349.8330000002,-1.3858166957262192,Estourou,-0.0,-179349.83300000022
+P06,57,Troca de solo inadequado,Remove & Replace unsuitable,Terraplenagem,m3,2605.0,2605.0,138016.51749999996,215667.31699999992,-77650.79949999996,-0.5626196118156653,Estourou,-0.0,-77650.79949999998
+P06,61,Preparo do subleito,Subgrade Preparation,Pavimentação,m2,12767.0,12767.0,23173.54962323703,4390.425,18783.124623237032,0.8105415410508562,Abaixo do orçado,-0.0,18783.124623237032
+P06,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,tonne,11525.0,11768.54,282664.28756175045,382852.6255000007,-100188.33793825028,-0.35444285800116604,Estourou,-5973.10720978646,-94215.23072846388
+P06,63,Regularização das camadas,Trim All Layers,Pavimentação,m2,15532.0,15532.0,39993.78932163867,86275.34799999995,-46281.55867836128,-1.1572186447789434,Estourou,-0.0,-46281.55867836128
+P06,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,12767.0,12767.0,152157.33749999997,274290.025,-122132.68750000006,-0.8026736633716405,Estourou,-0.0,-122132.68750000004
+P06,65,Asfalto (CBUQ),Asphalt,Pavimentação,tonne,1335.3,1335.96,374978.967,261664.12900000004,113314.83799999996,0.3021898505576713,Abaixo do orçado,-185.34121037971292,113500.17921037968
+P06,66,Sinalização horizontal,Linemarking,Pavimentação,item,1.0,1.0,20487.65432098765,4773.75,15713.90432098765,0.7669938234407954,Abaixo do orçado,-0.0,15713.90432098765
+P06,67,Sinalização e mobiliário viário,Install Road Furniture,Pavimentação,item,1.0,1.0,8210.0,2520.95,5689.05,0.6929415347137637,Abaixo do orçado,-0.0,5689.05
+P06,68,Estabilização de solo in situ,Insitu Stabilisation,Pavimentação,m2,3335.0,3335.0,47402.512153774485,46094.08,1308.4321537744836,0.027602590966696223,Abaixo do orçado,-0.0,1308.4321537744845
+P06,71,Meio-fio e sarjeta,Place Kerb & Channel / Inverts,"Concreto, meio-fio e calçadas",m,2278.0,2278.0,104574.58,86929.58430000005,17644.995699999956,0.16873121269050237,Abaixo do orçado,-0.0,17644.99569999997
+P06,72,Cabeceiras de concreto,Form & Pour Headwalls,"Concreto, meio-fio e calçadas",m3,5.63,5.63,5599.75,13301.4,-7701.65,-1.3753560426804767,Estourou,-0.0,-7701.65
+P06,73,Calçadas,Form & Place Footpath,"Concreto, meio-fio e calçadas",m2,1069.0,1069.0,11417.789028571427,55980.8,-44563.01097142858,-3.9029457331814283,Estourou,-0.0,-44563.01097142858
+P06,75,Corte e selagem de juntas,Saw Cutting,"Concreto, meio-fio e calçadas",m,300.0,300.0,3000.0,8705.77,-5705.77,-1.9019233333333334,Estourou,-0.0,-5705.77
+P06,81,Tubos de drenagem > 450 mm,> 450,Drenagem,m,66.6,66.6,29529.98299156901,19984.00500000001,9545.977991569001,0.32326391770338764,Abaixo do orçado,-0.0,9545.977991569
+P06,85,Bocas de lobo e poços de visita,Install SW Pits & Chambers,Drenagem,each,19.0,19.0,73110.0,16398.015,56711.985,0.775707632334838,Abaixo do orçado,-0.0,56711.985
+P06,86,Drenagem subempreitada,SW Sub-Contract Works,Drenagem,item,1.0,1.0,17380.0,41911.81,-24531.809999999998,-1.4114965477560413,Estourou,-0.0,-24531.81
+P06,87,Drenagem subterrânea,Supply & Place Subsoil Drainage,Drenagem,m,2803.0,2803.0,113589.21501350132,58724.450000000055,54864.76501350127,0.48301033691429235,Abaixo do orçado,-0.0,54864.76501350128
+P06,103,Rede de água (subempreitada),Water Sub-contractor,"Redes (água, esgoto, elétrica)",item,1.0,1.0,282302.4,287637.5,-5335.099999999977,-0.01889852866996517,Estourou,-0.0,-5335.099999999977
+P06,110,Elétrica e telecom,Electrical & Telecom,"Redes (água, esgoto, elétrica)",item,0.0,1.0,0.0,110.0,-110.0,,Não orçado,,
+P06,120,Paisagismo (subempreitada),Landscaping Sub-contractors,"Paisagismo, cercas e muros",item,0.0,1.0,0.0,350.0,-350.0,,Não orçado,,
+P06,121,Paisagismo (subempreitada),Landscaping Sub-contractors,"Paisagismo, cercas e muros",m2,3005.0,3005.0,14478.475,5977.08,8501.395,0.5871747542472533,Abaixo do orçado,-0.0,8501.395000000002
+P06,141,Controladores de tráfego,Traffic Controllers,"Tráfego, segurança e meio ambiente",hr,2217.0,375.0,195102.96,38275.73,156827.22999999998,0.8038177893354359,Abaixo do orçado,162101.78273342355,-5274.552733423551
+P06,151,Barreiras de sedimento,Supply & Place Silt fences,"Tráfego, segurança e meio ambiente",m,11050.0,1200.0,55250.0,4825.8200000000015,50424.18,0.9126548416289593,Abaixo do orçado,49250.0,1174.1799999999987
+P06,181,Galerias celulares,Place Box Culverts,Drenagem,m,202.4,202.4,44837.16666666666,65321.65000000001,-20484.48333333335,-0.45686391126409315,Estourou,-0.0,-20484.48333333335
+P06,182,Lajes de base,Supply Base Slabs,Drenagem,item,0.0,1.0,0.0,570.0,-570.0,,Não orçado,,
+P06,201,Não conformidade (retrabalho),Non Conformance,Serviços extras e retrabalho,item,0.0,1.0,0.0,13650.62,-13650.62,,Não orçado,,
+P06,220,Serviços de proteção,Protective Work,Serviços extras e retrabalho,item,0.0,1.0,0.0,1500.0,-1500.0,,Não orçado,,
+P06,221,Serviços por administração,Place Stone / Rock,Serviços extras e retrabalho,tonne,1885.0,1885.0,29725.0,31753.728,-2028.7279999999992,-0.06824989066442386,Estourou,-0.0,-2028.7279999999964
+P06,222,Manta de PEAD,Supply & Place Geofabrics,Impermeabilização (aterro),m2,40080.0,40080.0,147054.81140401002,129487.46,17567.351404010013,0.11946124874314021,Abaixo do orçado,-0.0,17567.351404010016
+P06,901,Gerenciamento do projeto,Project Management,Custos indiretos,week,42.0,48.0,80857.5,658.0,80199.5,0.9918622267569489,Abaixo do orçado,-11551.071428571428,91750.57142857142
+P06,902,Supervisão da obra,Project Supervision,Custos indiretos,week,42.0,56.0,120282.22222222222,150862.33041000064,-30580.108187778416,-0.25423630876457753,Estourou,-40094.07407407407,9513.965886295651
+P06,903,Instalações do canteiro,Project Facilities,Custos indiretos,week,42.0,56.0,52500.0,14376.32,38123.68,0.7261653333333333,Abaixo do orçado,-17500.0,55623.68
+P06,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,32500.0,29769.099999999988,2730.9000000000124,0.08402769230769269,Abaixo do orçado,-0.0,2730.9000000000124
+P06,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,0.0,1.0,0.0,13752.069000000009,-13752.069000000009,,Não orçado,,
+P06,907,Mobilização do canteiro,Site Establishment / disestablishment,Custos indiretos,item,1.0,1.0,18700.0,14352.61,4347.389999999999,0.23248074866310156,Abaixo do orçado,-0.0,4347.389999999999
+P06,908,EPI,Safety Work wear,Custos indiretos,item,0.0,1.0,0.0,413.73,-413.73,,Não orçado,,
+P06,911,Alojamento,Accommodation,Custos indiretos,item,0.0,1.0,0.0,2626.9,-2626.9,,Não orçado,,
+P06,913,Paralisação por chuva,Wet Weather Stand Down,Custos indiretos,hr,0.0,327.0,0.0,13752.764999999989,-13752.764999999989,,Não orçado,,
+P06,915,Manutenção,Maintenance,Custos indiretos,item,0.0,22.0,0.0,925.02,-925.02,,Não orçado,,
+P17,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hrs,100.0,51.0,15945.0,8207.5,7737.5,0.4852618375666353,Abaixo do orçado,7813.049999999999,-75.55000000000086
+P17,12,Topografia as-built,Survey - As Constructed,Topografia e qualidade,item,46.0,137.0,7390.0,21901.0,-14511.0,-1.9635994587280108,Estourou,-14619.347826086956,108.34782608695544
+P17,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,item,1.0,1.0,28731.0,9470.38,19260.620000000003,0.6703776408757093,Abaixo do orçado,-0.0,19260.620000000003
+P17,15,Localização de interferências,Service Locations,Topografia e qualidade,item,1.0,0.0,1998.0,0.0,1998.0,1.0,Não executado,,
+P17,41,Demolições,Demolition works,Demolição,item,0.0,1.0,0.0,1682.9,-1682.9,,Não orçado,,
+P17,52,Aterro com material estocado,Stockpile to Fill,Terraplenagem,cum,677.0,677.0,10200.133333333337,14016.515,-3816.3816666666626,-0.37415017450752225,Estourou,-0.0,-3816.381666666662
+P17,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,cum,0.0,50.0,1320.4158082037834,11469.48,-10149.064191796217,-7.686263772926508,Estourou,,
+P17,54,Corte para estoque,Cut to Stockpile,Terraplenagem,cum,1000.0,2500.0,10548.387096774191,36701.55,-26153.162903225813,-2.4793518348623866,Estourou,-15822.580645161288,-10330.582258064522
+P17,57,Troca de solo inadequado,Cut to Fill,Terraplenagem,cum,0.0,0.0,0.0,220.0,-220.0,,Não orçado,,
+P17,59,Acabamento de áreas não pavimentadas,"Trim unpaved areas - footpaths, batters, drains etc",Terraplenagem,sqm,9000.0,9000.0,9925.714285714286,10847.274999999998,-921.5607142857116,-0.09284578295912466,Estourou,-0.0,-921.5607142857108
+P17,61,Preparo do subleito,Subgrade Preparation,Pavimentação,sqm,380.0,955.0,3690.222222222222,12355.114999999996,-8664.892777777774,-2.3480680175840045,Estourou,-5583.888888888889,-3081.003888888886
+P17,62,Base de brita compactada,Place & Compact Gravel,Pavimentação,tonne,842.4,1753.0,9049.191457886776,23084.9625,-14035.771042113225,-1.5510525009259717,Estourou,-9781.8064358401,-4253.964606273127
+P17,63,Regularização das camadas,Trim All Layers,Pavimentação,sqm,2339.0,3294.0,8139.98954248366,21526.71000000001,-13386.720457516349,-1.644562365547194,Estourou,-3323.510052617313,-10063.210404899037
+P17,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,sqm,955.0,955.0,17548.125,6539.389999999999,11008.735,0.627345371656516,Abaixo do orçado,-0.0,11008.735000000002
+P17,65,Asfalto (CBUQ),Asphalt,Pavimentação,tonne,88.0,86.2,39160.0,34904.45999999999,4255.540000000008,0.10867058222676221,Abaixo do orçado,800.9999999999987,3454.54000000001
+P17,71,Meio-fio e sarjeta,Place Kerb & Channel / Inverts,"Concreto, meio-fio e calçadas",m,443.0,443.0,16834.0,14639.324,2194.6759999999995,0.1303716288463823,Abaixo do orçado,-0.0,2194.675999999999
+P17,72,Cabeceiras de concreto,Form & Pour Headwalls,"Concreto, meio-fio e calçadas",cum,1.0,1.0,1900.0,532.5,1367.5,0.7197368421052631,Abaixo do orçado,-0.0,1367.5
+P17,73,Calçadas,Form & Place Footpath,"Concreto, meio-fio e calçadas",sqm,466.1,556.1,24991.502,38225.27750000001,-13233.77550000001,-0.5295310181837014,Estourou,-4825.649388543231,-8408.126111456775
+P17,81,Tubos de drenagem > 450 mm,> 450,Drenagem,m,405.2,405.2,18720.24,16600.83,2119.41,0.11321489468083741,Abaixo do orçado,-0.0,2119.4099999999976
+P17,82,Tubos de drenagem 525–750 mm,525 > 750,Drenagem,m,102.4,102.4,4730.88,10332.59,-5601.71,-1.1840735761634198,Estourou,-0.0,-5601.71
+P17,85,Bocas de lobo e poços de visita,Install SW Pits & Chambers,Drenagem,each,1.0,1.0,35388.0,6064.854999999999,29323.145,0.8286183169435967,Abaixo do orçado,-0.0,29323.145
+P17,86,Drenagem subempreitada,SW Sub-contractors,Drenagem,each,11.0,11.0,6500.0,22752.36,-16252.36,-2.500363076923077,Estourou,-0.0,-16252.36
+P17,87,Drenagem subterrânea,Supply & Place Subsoil Drainage,Drenagem,m,1017.0,1017.0,40568.43773687693,17562.979999999996,23005.45773687693,0.5670777338306239,Abaixo do orçado,-0.0,23005.45773687693
+P17,95,Esgoto (subempreitada),Sewer Sub-contractors,"Redes (água, esgoto, elétrica)",item,16.0,16.0,69867.9,85835.88,-15967.98000000001,-0.22854529762594858,Estourou,-0.0,-15967.98000000001
+P17,103,Rede de água (subempreitada),Water Sub-contractor,"Redes (água, esgoto, elétrica)",item,27.0,27.0,107885.13,93624.379,14260.751000000004,0.1321845837327165,Abaixo do orçado,-0.0,14260.751000000007
+P17,111,Eletrodutos e caixas,Install Conduits / pits / rag bolts,"Redes (água, esgoto, elétrica)",m,456.0,456.0,34461.23547009936,57698.310500000014,-23237.075029900654,-0.6742960521558358,Estourou,-0.0,-23237.07502990065
+P17,113,Elétrica (subempreitada),Electrical Sub-contract works,"Redes (água, esgoto, elétrica)",item,6.0,6.0,101320.0,91724.16,9595.839999999997,0.09470825108566913,Abaixo do orçado,-0.0,9595.840000000004
+P17,121,Paisagismo (subempreitada),Landscaping Sub-contractors,"Paisagismo, cercas e muros",item,1.0,1.0,405473.27,343303.69,62169.580000000016,0.15332596400251,Abaixo do orçado,-0.0,62169.580000000016
+P17,123,Mobiliário urbano,Supply & Installation of Street Furniture,"Paisagismo, cercas e muros",item,1.0,1.0,119853.08448225286,109537.7,10315.384482252863,0.08606690872257279,Abaixo do orçado,-0.0,10315.384482252864
+P17,131,Cercas (subempreitada),Fencing Sub-contractors,"Paisagismo, cercas e muros",item,1.0,1.0,21670.0,18080.5,3589.5,0.16564374711582833,Abaixo do orçado,-0.0,3589.5
+P17,132,Muros de arrimo (subempreitada),Retaining Walls sub-contractors,"Paisagismo, cercas e muros",sqm,677.0,807.0,349020.0103011586,322580.15615,26439.854151158594,0.07575455094492851,Abaixo do orçado,-67020.09060435837,93459.94475551696
+P17,135,Fundação de muro de arrimo,Form & Pour Retaining Wall Footings,"Paisagismo, cercas e muros",m,577.0,577.0,54137.20538720539,62335.54000000005,-8198.334612794664,-0.1514362360258114,Estourou,-0.0,-8198.334612794662
+P17,151,Barreiras de sedimento,Supply & Place Silt fences & protective devices,"Tráfego, segurança e meio ambiente",m,0.0,100.0,0.0,3567.8950000000004,-3567.8950000000004,,Não orçado,,
+P17,152,Dispositivos de segurança,Supply & Install safety devices,"Tráfego, segurança e meio ambiente",item,0.0,1.0,0.0,875.0,-875.0,,Não orçado,,
+P17,222,Manta de PEAD,Supply & Place Geo-fabric,Impermeabilização (aterro),sqm,2600.0,0.0,5804.952878946762,76.9,5728.052878946763,0.9867526917782746,Abaixo do orçado,,
+P17,901,Gerenciamento do projeto,Project Management,Custos indiretos,week,14.0,6.414579248366013,61200.0,28040.875,33159.125,0.5418157679738562,Abaixo do orçado,33159.125,-0.0
+P17,902,Supervisão da obra,Project Supervision,Custos indiretos,week,16.0,26.96993727382389,66320.0,111790.39000000004,-45470.39000000004,-0.6856210796139934,Estourou,-45470.39000000003,-2.4529015057691038e-11
+P17,903,Instalações do canteiro,Project Facilities,Custos indiretos,week,16.0,15.3155375,12800.0,12252.43,547.5699999999997,0.04277890624999998,Abaixo do orçado,547.5700000000004,-0.0
+P17,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,item,1.0,1.0,23700.0,9907.839999999998,13792.160000000002,0.5819476793248946,Abaixo do orçado,-0.0,13792.160000000002
+P17,905,Ferramentas pequenas,Small Tools,Custos indiretos,item,1.0,1.0,5000.0,3960.37,1039.63,0.20792600000000003,Abaixo do orçado,-0.0,1039.63
+P17,906,Contingência,Miscellaneous Items - Project Contingency,Custos indiretos,item,1.0,1.0,0.0,24005.002200000003,-24005.002200000003,,Não orçado,,
+P17,910,Desmobilização e limpeza,De-Establishment & Cleanup,Custos indiretos,item,0.0,1.0,0.0,8179.134999999998,-8179.134999999998,,Não orçado,,
+P17,913,Paralisação por chuva,Wet Weather (Labour),Custos indiretos,hrs,0.0,97.0,0.0,5482.789999999999,-5482.789999999999,,Não orçado,,
+P17,914,Treinamento,Training,Custos indiretos,hrs,0.0,4.5,0.0,207.5,-207.5,,Não orçado,,
+P17,916,Administração do canteiro,Site Administration,Custos indiretos,hrs,600.0,846.4872916666664,28800.0,40631.38999999999,-11831.389999999992,-0.4108121527777775,Estourou,-11831.389999999985,-6.01465396006991e-12
+P18,11,Topografia de obra,Survey - Construction,Topografia e qualidade,hr,180.0,198.0,33305.5,36667.3,-3361.800000000003,-0.10093828346669478,Estourou,-3330.55,-31.25000000000159
+P18,13,Ensaios de qualidade,QA Testing,Topografia e qualidade,Item,0.0,1.0,0.0,4536.0,-4536.0,,Não orçado,,
+P18,16,Aluguel de GPS,GPS Hire,Topografia e qualidade,Weeks,8.0,14.4,8000.0,12966.0,-4966.0,-0.62075,Estourou,-6400.0,1434.000000000001
+P18,41,Demolições,Demolition,Demolição,Item,1.0,0.0,7626.226350946799,0.0,7626.226350946799,1.0,Não executado,,
+P18,53,Corte com bota-fora,Cut to Spoil,Terraplenagem,m3,12149.0,12149.0,236016.4911111112,359268.44000000035,-123251.94888888916,-0.522217529413506,Estourou,-0.0,-123251.94888888916
+P18,57,Troca de solo inadequado,Remove & Replace unsuitable,Terraplenagem,m3,2378.0,2378.0,162992.62595679157,36487.555,126505.07095679158,0.776139841997069,Abaixo do orçado,-0.0,126505.07095679158
+P18,61,Preparo do subleito,Subgrade Preparation,Pavimentação,m2,25482.0,25482.0,131922.97909325117,3483.915,128439.06409325117,0.9735912952849757,Abaixo do orçado,-0.0,128439.06409325116
+P18,62,Base de brita compactada,Place & Compact Gravel (CBR80),Pavimentação,Tonne,24591.0,9844.0,408944.87001544505,112261.32000000008,296683.550015445,0.7254854425835928,Abaixo do orçado,245240.53507859656,51443.01493684838
+P18,63,Regularização das camadas,Trim All Layers,Pavimentação,m2,29554.0,29554.0,64324.16931216932,31078.21500000001,33245.954312169306,0.5168501150916471,Abaixo do orçado,-0.0,33245.9543121693
+P18,64,Imprimação / tratamento superficial,Sweep & Prime / Primer seal or Seal,Pavimentação,m2,59019.0,59019.0,430929.69264423073,358171.69800000003,72757.9946442307,0.16883959468603765,Abaixo do orçado,-0.0,72757.99464423074
+P18,65,Asfalto (CBUQ),Asphalt (Cold MIx),Pavimentação,Tonne,20.0,2.0,25937.5,500.6,25436.9,0.9806997590361446,Abaixo do orçado,23343.75,2093.15
+P18,67,Sinalização e mobiliário viário,Line Marking & Signs,Pavimentação,Item,1.0,1.0,6094.0,3719.88,2374.12,0.3895831965868067,Abaixo do orçado,-0.0,2374.12
+P18,72,Cabeceiras de concreto,525 > 750,"Concreto, meio-fio e calçadas",m,31.2,31.2,2200.0,12781.13,-10581.13,-4.809604545454545,Estourou,-0.0,-10581.13
+P18,81,Tubos de drenagem > 450 mm,SW >450,Drenagem,Item,1.0,0.0,4246.938530734633,0.0,4246.938530734633,1.0,Não executado,,
+P18,82,Tubos de drenagem 525–750 mm,SW<525,Drenagem,Item,1.0,0.0,8332.28570233335,0.0,8332.28570233335,1.0,Não executado,,
+P18,88,Limpeza de valetas,Clean & Trim Table Drains,Drenagem,m3,141.0,141.0,53447.8921875,11515.392499999998,41932.49968750001,0.7845491743696278,Abaixo do orçado,-0.0,41932.4996875
+P18,141,Controladores de tráfego,Traffic Controllers,"Tráfego, segurança e meio ambiente",hr,2442.0,1473.0,117220.26700172764,82094.65999999999,35125.60700172765,0.2996547260996254,Abaixo do orçado,46513.69317144721,-11388.086169719554
+P18,151,Barreiras de sedimento,Supply & Place Silt fences & protective devices,"Tráfego, segurança e meio ambiente",Item,1.0,1.0,14800.0,3294.92,11505.08,0.7773702702702703,Abaixo do orçado,-0.0,11505.08
+P18,221,Serviços por administração,Place Protection Rock,Serviços extras e retrabalho,m3,28.63539823008849,0.0,6471.6,0.0,6471.6,1.0,Não executado,,
+P18,222,Manta de PEAD,Supply & Place Geofabrics,Impermeabilização (aterro),m2,14642.0,14642.0,26373.6,37594.32249999999,-11220.722499999989,-0.4254528202444865,Estourou,-0.0,-11220.72249999999
+P18,613,Entrega de brita para base,Deliver Road Base Gravel,Pavimentação,tonne,24591.0,24591.0,307979.05742548255,187160.79500000007,120818.26242548248,0.39229375995708804,Abaixo do orçado,-0.0,120818.26242548248
+P18,901,Gerenciamento do projeto,Project Management,Custos indiretos,Weeks,14.0,32.0,48000.0,123128.13,-75128.13,-1.5651693750000002,Estourou,-61714.28571428571,-13413.844285714296
+P18,902,Supervisão da obra,Project Supervision,Custos indiretos,Weeks,22.0,28.0,49740.0,64840.5,-15100.5,-0.30358866103739446,Estourou,-13565.454545454546,-1535.0454545454468
+P18,903,Instalações do canteiro,Project Facilities,Custos indiretos,Weeks,20.0,24.0,16345.0,30417.647,-14072.647,-0.8609756500458856,Estourou,-3269.0,-10803.647
+P18,904,"Seguros, taxas e licenças","Project Insurance, Fees & Levies",Custos indiretos,Item,1.0,1.0,18750.0,12162.089999999998,6587.910000000002,0.3513552000000001,Abaixo do orçado,-0.0,6587.910000000002
+P18,905,Ferramentas pequenas,Small Tools,Custos indiretos,Item,1.0,1.0,5000.0,3413.099999999999,1586.900000000001,0.3173800000000002,Abaixo do orçado,-0.0,1586.900000000001
+P18,907,Mobilização do canteiro,Site Establishment,Custos indiretos,Item,1.0,1.0,17154.0,43545.1542,-26391.154199999997,-1.5384839804127315,Estourou,-0.0,-26391.1542
+P18,910,Desmobilização e limpeza,De-Establishment & Cleanup,Custos indiretos,Item,1.0,1.0,18000.0,21497.045,-3497.0449999999983,-0.19428027777777768,Estourou,-0.0,-3497.0449999999983
+P18,911,Alojamento,Accommodation,Custos indiretos,Night,360.0,240.0,67260.0,44449.29999999999,22810.70000000001,0.3391421349985134,Abaixo do orçado,22420.0,390.700000000013
+P18,916,Administração do canteiro,Site Administration,Custos indiretos,Hr,700.0,1424.0,33600.0,68350.72899999995,-34750.72899999995,-1.0342478869047604,Estourou,-34752.0,1.2710000000546415

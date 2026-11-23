@@ -1,0 +1,177 @@
+table itens
+	lineageTag: b0d2e0b5-876c-4bb2-a530-435ee44a1545
+
+	measure Orçado = SUM(itens[orcado])
+		formatString: #,0
+		lineageTag: d7ff5eb1-2399-47e3-bcb3-d235941cebe1
+
+	measure 'Custo real' = SUM(itens[custo_real])
+		formatString: #,0
+		lineageTag: da9912ed-c85e-45b6-a876-ce1eb4d36214
+
+	measure 'Saldo total' = [Orçado] - [Custo real]
+		formatString: +#,0;-#,0;0
+		lineageTag: f46c53e7-3491-47c0-91d3-6713c762380a
+
+	measure 'Saldo %' = DIVIDE([Saldo total], [Orçado])
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: e3354b56-e27b-4efc-9b56-c9000c7aa6d5
+
+	measure 'Qtd de itens' = COUNTROWS(itens)
+		formatString: #,0
+		lineageTag: 604ba63f-13a2-4ca8-a230-822746f3513f
+
+	measure '% itens acima do orçado' = DIVIDE(CALCULATE(COUNTROWS(itens), itens[situacao] IN {"Estourou", "Não orçado"}), COUNTROWS(itens))
+		formatString: 0%
+		lineageTag: e07d5997-5903-4832-be62-3e6c27592a88
+
+	measure 'Desvio por custo unitário %' = VAR p = SUMX(itens, ABS(itens[efeito_preco])) VAR q = SUMX(itens, ABS(itens[efeito_quantidade])) RETURN DIVIDE(p, p + q)
+		formatString: 0%
+		lineageTag: d3749e0f-6f17-42f3-808c-1c8484a2f06a
+
+	measure 'Desvio por quantidade %' = VAR p = SUMX(itens, ABS(itens[efeito_preco])) VAR q = SUMX(itens, ABS(itens[efeito_quantidade])) RETURN DIVIDE(q, p + q)
+		formatString: 0%
+		lineageTag: 294e5d46-e254-437d-b6d5-57ce8fd6dd2a
+
+	column obra
+		dataType: string
+		lineageTag: 86e072dd-8011-44dd-bd48-3fce27944d7b
+		summarizeBy: none
+		sourceColumn: obra
+
+		annotation SummarizationSetBy = Automatic
+
+	column wbs
+		dataType: int64
+		formatString: 0
+		lineageTag: 3926c6ba-0066-4a07-8c5e-cdc83f0d4861
+		summarizeBy: none
+		sourceColumn: wbs
+
+		annotation SummarizationSetBy = Automatic
+
+	column descricao_pt
+		dataType: string
+		lineageTag: 0e08e66d-99c4-48e4-a738-df650bd5cc7e
+		summarizeBy: none
+		sourceColumn: descricao_pt
+
+		annotation SummarizationSetBy = Automatic
+
+	column descricao_original
+		dataType: string
+		lineageTag: 7ac013de-2f78-45c8-8922-b1cf99771a19
+		summarizeBy: none
+		sourceColumn: descricao_original
+
+		annotation SummarizationSetBy = Automatic
+
+	column grupo
+		dataType: string
+		lineageTag: f27991ba-9d44-4354-81e3-f61d68cd112d
+		summarizeBy: none
+		sourceColumn: grupo
+
+		annotation SummarizationSetBy = Automatic
+
+	column unidade
+		dataType: string
+		lineageTag: c98453f7-28ea-4eaa-af76-682e8d27f20a
+		summarizeBy: none
+		sourceColumn: unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column qtd_orcada
+		dataType: double
+		formatString: #,0
+		lineageTag: 7b29abb0-d805-428d-9b71-27051e2f7c70
+		summarizeBy: sum
+		sourceColumn: qtd_orcada
+
+		annotation SummarizationSetBy = Automatic
+
+	column qtd_real
+		dataType: double
+		formatString: #,0
+		lineageTag: 3e46f22c-1605-4635-88d6-da56aef3c3c2
+		summarizeBy: sum
+		sourceColumn: qtd_real
+
+		annotation SummarizationSetBy = Automatic
+
+	column orcado
+		dataType: double
+		formatString: #,0
+		lineageTag: 7835548e-4fc7-42de-9e3a-4f86b1fea550
+		summarizeBy: sum
+		sourceColumn: orcado
+
+		annotation SummarizationSetBy = Automatic
+
+	column custo_real
+		dataType: double
+		formatString: #,0
+		lineageTag: 2c75f223-5bc3-40ae-8ea2-d1be2961f6ea
+		summarizeBy: sum
+		sourceColumn: custo_real
+
+		annotation SummarizationSetBy = Automatic
+
+	column saldo
+		dataType: double
+		formatString: #,0
+		lineageTag: 4193ecf3-d3e6-4eb2-a040-64666942dcd6
+		summarizeBy: sum
+		sourceColumn: saldo
+
+		annotation SummarizationSetBy = Automatic
+
+	column saldo_pct
+		dataType: double
+		formatString: 0%
+		lineageTag: 9970f024-be47-4e99-8d44-f4d53c17743f
+		summarizeBy: none
+		sourceColumn: saldo_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column situacao
+		dataType: string
+		lineageTag: 44e03b3f-1c02-4ebd-83c1-7a178122c6b7
+		summarizeBy: none
+		sourceColumn: situacao
+
+		annotation SummarizationSetBy = Automatic
+
+	column efeito_quantidade
+		dataType: double
+		formatString: #,0
+		lineageTag: c7f3195e-8d52-4205-9974-e6ce3a6c13b6
+		summarizeBy: sum
+		sourceColumn: efeito_quantidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column efeito_preco
+		dataType: double
+		formatString: #,0
+		lineageTag: ee54f3ee-e5dd-4599-90cc-d2cb90180ead
+		summarizeBy: sum
+		sourceColumn: efeito_preco
+
+		annotation SummarizationSetBy = Automatic
+
+	partition itens = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(Text.TrimEnd(PastaDados, "\") & "\itens.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"obra", type text}, {"wbs", Int64.Type}, {"descricao_pt", type text}, {"descricao_original", type text}, {"grupo", type text}, {"unidade", type text}, {"qtd_orcada", type number}, {"qtd_real", type number}, {"orcado", type number}, {"custo_real", type number}, {"saldo", type number}, {"saldo_pct", type number}, {"situacao", type text}, {"efeito_quantidade", type number}, {"efeito_preco", type number}}, "en-US"),
+				    Selecao = Table.SelectColumns(Tipos, {"obra", "wbs", "descricao_pt", "descricao_original", "grupo", "unidade", "qtd_orcada", "qtd_real", "orcado", "custo_real", "saldo", "saldo_pct", "situacao", "efeito_quantidade", "efeito_preco"})
+				in
+				    Selecao
+
+	annotation PBI_ResultType = Table
+

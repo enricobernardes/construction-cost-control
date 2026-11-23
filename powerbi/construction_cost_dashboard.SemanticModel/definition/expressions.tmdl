@@ -1,0 +1,5 @@
+expression PastaDados = "C:\Users\enric\OneDrive\Documents\Projetos\construction-cost-control\data" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: c71bbdd8-64f2-426e-b39b-4172ed478301
+
+	annotation PBI_ResultType = Text
+

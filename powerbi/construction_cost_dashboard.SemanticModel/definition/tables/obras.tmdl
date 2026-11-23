@@ -1,0 +1,133 @@
+table obras
+	lineageTag: 026f26a2-55da-4b7f-947b-25e23b4eff3f
+
+	column obra
+		dataType: string
+		lineageTag: 3943cf51-5bbb-4d20-ad46-c92fd109898c
+		summarizeBy: none
+		sourceColumn: obra
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome
+		dataType: string
+		lineageTag: 8cd762f3-7e7b-4510-8748-15e956d4a9b9
+		summarizeBy: none
+		sourceColumn: nome
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_en
+		dataType: string
+		lineageTag: 2078c1aa-4da5-40c6-bfe4-e1fe4caaf209
+		summarizeBy: none
+		sourceColumn: nome_en
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigo_original
+		dataType: string
+		lineageTag: f928416d-52fb-4bb4-9a25-9033014679f1
+		summarizeBy: none
+		sourceColumn: codigo_original
+
+		annotation SummarizationSetBy = Automatic
+
+	column orcado
+		dataType: double
+		formatString: #,0
+		lineageTag: c9488202-cf03-4cd8-9d27-4c69547a6e5b
+		summarizeBy: sum
+		sourceColumn: orcado
+
+		annotation SummarizationSetBy = Automatic
+
+	column custo_real
+		dataType: double
+		formatString: #,0
+		lineageTag: ab1a4f5f-2e09-4edb-b00a-7d25870f9035
+		summarizeBy: sum
+		sourceColumn: custo_real
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_itens
+		dataType: int64
+		formatString: #,0
+		lineageTag: 19f2c826-042d-4c64-bdac-4f5d4fd4bd44
+		summarizeBy: sum
+		sourceColumn: n_itens
+
+		annotation SummarizationSetBy = Automatic
+
+	column saldo
+		dataType: double
+		formatString: #,0
+		lineageTag: d68c8c0a-e258-47dd-afc4-b93ddc577080
+		summarizeBy: sum
+		sourceColumn: saldo
+
+		annotation SummarizationSetBy = Automatic
+
+	column saldo_pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: a7454509-bcce-4fa7-944d-74f927d650c1
+		summarizeBy: none
+		sourceColumn: saldo_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column inicio
+		dataType: dateTime
+		formatString: dd/MM/yyyy
+		lineageTag: c5b14c22-81db-41e3-a3b6-aed13f9e6f69
+		summarizeBy: none
+		sourceColumn: inicio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column fim
+		dataType: dateTime
+		formatString: dd/MM/yyyy
+		lineageTag: 4f20ce9f-d5ca-4491-a285-2a4d19891329
+		summarizeBy: none
+		sourceColumn: fim
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column meses
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1656997c-f232-4076-ac1d-65a0f38998f7
+		summarizeBy: none
+		sourceColumn: meses
+
+		annotation SummarizationSetBy = Automatic
+
+	column cpi_final
+		dataType: double
+		formatString: 0.00
+		lineageTag: d8dce508-dc42-4854-b27d-786e9b7881da
+		summarizeBy: none
+		sourceColumn: cpi_final
+
+		annotation SummarizationSetBy = Automatic
+
+	partition obras = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(Text.TrimEnd(PastaDados, "\") & "\obras.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"obra", type text}, {"nome", type text}, {"nome_en", type text}, {"codigo_original", type text}, {"orcado", type number}, {"custo_real", type number}, {"n_itens", Int64.Type}, {"saldo", type number}, {"saldo_pct", type number}, {"inicio", type date}, {"fim", type date}, {"meses", Int64.Type}, {"cpi_final", type number}}, "en-US"),
+				    Selecao = Table.SelectColumns(Tipos, {"obra", "nome", "nome_en", "codigo_original", "orcado", "custo_real", "n_itens", "saldo", "saldo_pct", "inicio", "fim", "meses", "cpi_final"})
+				in
+				    Selecao
+
+	annotation PBI_ResultType = Table
+
